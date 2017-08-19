@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>CSS</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="style.css">
 	
 	<!-- internal variations -->
@@ -35,10 +36,13 @@
 	<p style="color: #303030; margin-left: 20vw; margin-right: 20vw; font-size: 2em">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic architecto autem delectus omnis eveniet consequatur, repudiandae vel ex beatae quia.</p>
 
 
+	<!-- COLORS -->
+	<h2>Dealing with Colors</h2>
+
+
 	<div id="first-section">
 		<p class="redText large">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, natus.</p>
 
-<!-- ========================== -->
 		<div class="lightpink">
 			<p class="redText" id="lineThrough">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, blanditiis et consequuntur atque vitae dignissimos est iste totam maiores! Cum.</p>			
 		</div>
@@ -49,9 +53,10 @@
 	</div>
 
 	
-	<h2>Dealing with Floating</h2>
 
-	<!-- floating -->
+
+	<!-- FLOATING -->
+	<h2>Dealing with Floating</h2>
 	<div>
 		<p class="floatingTxt">Left floated dolor sit amet, consectetur adipisicing elit. Praesentium, vel doloribus rem dolorem voluptatem cum voluptatibus ad aspernatur tempora ipsam!</p>
 		<p class="floatingTxt">Right floated dolor sit amet, consectetur adipisicing elit. Praesentium, vel doloribus rem dolorem voluptatem cum voluptatibus ad aspernatur tempora ipsam!</p>
@@ -65,6 +70,46 @@
 		<div class="clear-float"></div>
 
 		<p id="belowAgain">Woops! I've been cleared!</p>
+	</div>
+
+	
+	<!-- POSITIONING -->
+	<h2>Dealing with Positioning</h2>
+	<h3>relative positioning</h3>
+	
+	<div id="second-section">
+
+		<p id="importantIndex">My content is most important!</p>
+
+		<p id="nestedRelativeOne">I'm important, too!</p>
+
+		<p id="nestedRelativeTwo">I'm the least important...</p>
+
+	</div>
+
+	
+	<h3>absolute positioning</h3>
+	
+	<div id="absolute-section">
+
+
+		<p id="firstAbsolute">first</p>
+
+		<p id="secondAbsolute">second</p>
+
+		<p id="thirdAbsolute">third</p>
+
+	</div>
+
+
+	<h3>fixed positioning</h3>
+	
+	<div id="fixed-section">
+		
+		<p>look for the <i class="fa fa-heart" aria-hidden="true"></i></p>
+		
+		<p id="fixedElement"><i class="fa fa-heart" aria-hidden="true"></i></p>
+
 	</div>
 
 </body>

@@ -13,6 +13,7 @@ body {
 }
 
 h2 {
+	border-top: 7px dashed crimson;
 	text-align: center;
 	color: crimson;
 	font-size: 4em;
@@ -71,4 +72,86 @@ h2 {
 	background: deepskyblue;
 	color: #fff;
 	font-size: 2em;
+}
+
+/* second section ==================================================== */ 
+#second-section {
+	position: relative;
+	top: 3em;
+	left: 25px;
+	padding: 1em;
+}
+
+#nestedRelativeOne {
+	position: relative;
+	background: coral;
+	opacity: 0.9;
+	left: 10px;
+	top: -125px;
+	height: 4em;
+	width: 40vw;
+	z-index: 2;
+}
+
+#nestedRelativeTwo {
+	position: relative;
+	background: yellowgreen;
+	float: right;
+	opacity: 0.9;
+	top: -250px;
+	height: 7em;
+	width: 60vw;
+	z-index: 1;
+}
+
+#importantIndex {
+	position: relative;
+	z-index: 999;
+	background: crimson;
+	opacity: 0.9;
+	font-size: 1.6em;
+	color: #fff;
+}
+
+#absolute-section {
+	position: relative;
+	background: #dedede;
+	height: 300px;
+	width: 100%;
+}
+
+#absolute-section p {
+	position: absolute;
+	font-size: 2em;
+	font-weight: 600;
+	color: #fff;
+	border-radius: 5px;
+}
+
+#firstAbsolute {
+	background: coral;
+	left: 50px;
+	top: 50px;
+}
+
+#secondAbsolute {
+	background: lightblue;
+	left: 300px;
+	top: 25px;
+}
+
+#thirdAbsolute {
+	background: crimson;
+	right: 150px;
+	top: 150px;
+}
+
+#fixedElement {
+	position: fixed;
+	background: crimson;
+	font-size: 2em;
+	opacity: 0.7;
+	left: 0;
+	bottom: 0;
+	color: #fff;
 }
