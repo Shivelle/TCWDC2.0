@@ -1,3 +1,24 @@
+/* stylesheet variations */
+
 body {
 	color: #303030;
+	padding: 2em;
+}
+
+.redText {
+	color: rgba(225, 0, 0, 0.5);
+}
+
+.large {
+	font-size: 3em;
+}
+
+#featured {
+	background: coral;
+	color: #fff;
+}
+
+#lineThrough {
+	text-decoration: line-through;
+	color: #aaa; 
 }
